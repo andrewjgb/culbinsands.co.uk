@@ -50,15 +50,15 @@
 <link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic|PT+Sans+Narrow:400,700|PT+Sans+Caption:400,700' rel='stylesheet' type='text/css'>
 
-<!--[if lt IE 9]>
-		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
+<!--[if lt IE 10]>
+  <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
 
 <!-- Favicons -->
-<link rel="shortcut icon" href="images/favicon.ico">
-<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+<link rel="shortcut icon" href="/favicon.ico">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
 </head>
 <body>
 
@@ -250,11 +250,14 @@
 
 <!-- Scripts -->
 <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false&amp;language=en"></script> 
+<!-- build:js(.) scripts/vendor.js -->
+<!-- bower:js -->
+
+<!-- endbower -->
+<!-- endbuild -->
 <!-- build:js({app,.tmp}) scripts/main.js -->
 <script src="scripts/jquery-1.11.1.min.js"></script>
 <script src="scripts/gmap3.min.js"></script> 
-<script src="scripts/jquery.zweatherfeed.js"></script> 
-<script src="scripts/jquery.flexslider-min.js"></script> 
 <script src="scripts/zebra_datepicker.js"></script> 
 <script src="scripts/jquery.validate.min.js"></script> 
 <script src="scripts/jquery.prettyPhoto.js"></script> 
