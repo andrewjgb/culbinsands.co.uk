@@ -1,7 +1,24 @@
 {
   "name": "culbinsands-co-uk",
-  "private": true,
   "dependencies": {
-    "bootstrap-sass-official": "~3.2.0"
-  }
+    "gmap3": "https://github.com/jbdemonte/gmap3.git#~6.0.0",
+    "jquery": "1.9.1",
+    "prettyphoto": "https://github.com/scaron/prettyphoto.git"
+  },
+  "version": "0.0.0",
+  "homepage": "https://github.com/andrewjgb/culbinsands.co.uk",
+  "authors": [
+    "andrewjgb <andrew@chiprate.co.uk>"
+  ],
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
 }
