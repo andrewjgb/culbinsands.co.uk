@@ -3,7 +3,10 @@
   "dependencies": {
     "gmap3": "https://github.com/jbdemonte/gmap3.git#~6.0.0",
     "jquery": "1.9.1",
-    "prettyphoto": "https://github.com/scaron/prettyphoto.git"
+    "prettyphoto": "https://github.com/scaron/prettyphoto.git",
+    "FitText.js": "https://github.com/davatron5000/FitText.js.git",
+    "Skeleton": "https://github.com/dhg/Skeleton.git",
+    "mosaic": "https://github.com/buildinternet/mosaic.git"
   },
   "version": "0.0.0",
   "homepage": "https://github.com/andrewjgb/culbinsands.co.uk",

@@ -1,7 +1,7 @@
 //
  $(document).ready(function() {
 
-// Weather feed
+/* // Weather feed
 	$(function () {
 	$('#weather').weatherfeed(['USHI0290'],{
 		unit: 'c',
@@ -16,7 +16,7 @@
 		forecast: false,
 		link: false
 	});
-	});
+	}); */
 // Mosaic
 	jQuery(function($){			
 		$('.circle').mosaic({
@@ -97,7 +97,7 @@
 		});
    });
 
-// Flexslider
+/* // Flexslider
     $(window).load(function(){
       $('#homeslider').flexslider({
         animation: "fade",
@@ -145,5 +145,5 @@
       });
     });
 	
-//
+// */
     });
